@@ -15,7 +15,7 @@ app.get('/', (req, res) => {
     });
 });
 
-//We choose port here, but the hosting method may decide it for us.
+//We choose the port here, but the hosting method may decide it for us.
 const port = process.env.PORT || 4789;
 app.listen(port, () => {
     console.log('listening on: ' + port);
